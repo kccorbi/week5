@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+        <link href="https://fonts.googleapis.com/css2?family=Amarante&family=Eater&display=swap" rel="stylesheet">
+		<title>Three Column Layout</title>
+		<style 
+               type="text/css">
+            .eater-regular {
+  font-family: "Eater", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+			body {
+				width: 960px;
+				font-family: "amarante";
+                color: darkgoldenrod}
+			.column1of3, .column2of3, .column3of3 {
+				width: 300px;
+				float: left;
+				margin: 10px;}
+            h3{
+                font-family: "eater", serif;
+                margin-top:70px
+            }
+            h1 {
+				position: fixed;
+				top: 0px;
+				left: 0px;
+				margin: 0px;
+				padding: 10px;
+				width: 100%;
+				background-color: lightcyan;
+				z-index: 10;}
+		</style>
+	</head>
+	<body>
+		<h1>The Three Little Pigs: The Real Story</h1>
+		<div class="bucket">
+        <div class="column1of3">
+			<h3>Ghost Pig I</h3>
+			<p>I built my house of straw and succumbed to the wolf's terror!</p>
+		</div>
+		<div class="column2of3">
+			<h3>Ghost Pig II</h3>
+            <p>I built <i>my</i> house of sticks and succumbed to the wolf's terror!</p>
+		</div>
+		<div class="column3of3">
+			<h3>Ghost Pig III</h3>
+			I built <i>my</i> house of durable brick and succumbed to the fate which ultimately consumes all!
+		</div>
+        </div>
+	</body>
+</html>
